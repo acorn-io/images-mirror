@@ -7,15 +7,6 @@ GitHub Actions scheduled to run daily at Midnight UTC to mirror some images to [
 Mirrored Images:
 * [`alpine`](https://ghcr.io/rblaine95/alpine)
 * [`busybox`](https://ghcr.io/rblaine95/busybox)
-* [`debian`](https://ghcr.io/rblaine95/debian)
-* [`kubectl`](https://ghcr.io/rblaine95/kubectl)
-* [`golang`](https://ghcr.io/rblaine95/golang)
-* [`node`](https://ghcr.io/rblaine95/node)
-* [`mysql`](https://ghcr.io/rblaine95/mysql)
-* [`openjdk`](https://ghcr.io/rblaine95/openjdk)
-* [`postgres`](https://ghcr.io/rblaine95/postgres)
-* [`python`](https://ghcr.io/rblaine95/python)
-* [`rust`](https://ghcr.io/rblaine95/rust)
 
 [github-actions-badge]: https://img.shields.io/github/actions/workflow/status/rblaine95/dockerhub-mirror/mirror.yml?branch=master "Github Workflow Status (master)"
 [github-actions-link]: https://github.com/rblaine95/dockerhub-mirror/actions?query=workflow%3AMirror%20Dockerhub
