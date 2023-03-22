@@ -12,10 +12,6 @@ jobs:
     strategy:
       matrix:
         include:
-          - image: alpine
-            repo: docker.io
-          - image: busybox
-            repo: docker.io
           - image: registry
             repo: docker.io
     permissions:
