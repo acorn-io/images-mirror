@@ -12,6 +12,12 @@ jobs:
     strategy:
       matrix:
         include:
+          - image: busybox
+            repo: docker.io
+          - image: golang
+            repo: docker.io
+          - image: nginx
+            repo: docker.io
           - image: registry
             repo: docker.io
     permissions:
