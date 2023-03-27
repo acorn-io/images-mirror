@@ -18,11 +18,19 @@ jobs:
             repo: docker.io
           - image: golang
             repo: docker.io
+          - image: moby/buildkit
+            repo: docker.io
           - image: nginx
+            repo: docker.io
+          - image: node
             repo: docker.io
           - image: python
             repo: docker.io
+          - image: rancher/klipper-lb
+            repo: docker.io
           - image: registry
+            repo: docker.io
+          - image: tonistiigi/binfmt
             repo: docker.io
           - image: ubuntu
             repo: docker.io
